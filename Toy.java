@@ -14,6 +14,8 @@ public class Toy {
     @ColumnInfo(name = "toyId")
     private int mId;
 
+    @Nullable
+    @ColumnInfo(name = "toyName")
     private String mName;
 
     private String mNickname;
